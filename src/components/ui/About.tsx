@@ -48,16 +48,16 @@ export default function About() {
             <h3 className="text-base font-bold text-cyan-400 font-sans tracking-tight uppercase">// Who I am</h3>
             <div className="text-gray-300 font-sans text-sm font-light leading-relaxed space-y-3">
               <p>
-                I am a Computer Engineering student with a strong interest in backend development, software architecture, and modern web technologies [INDEX].
+                I am a Computer Engineering student with a strong interest in backend development, software architecture, and modern web technologies.
               </p>
               <p>
-                I have hands-on experience building applications using Java, PHP, React, and Next.js, focusing on clean code and scalable systems [INDEX].
+                I have hands-on experience building applications using Java, PHP, React, and Next.js, focusing on clean code and scalable systems.
               </p>
               <p>
-                I enjoy working in team environments, using Git workflows, and continuously improving my skills through real-world projects [INDEX].
+                I enjoy working in team environments, using Git workflows, and continuously improving my skills through real-world projects.
               </p>
               <p>
-                My goal is to grow into a full-stack developer and build efficient, user-focused applications [INDEX].
+                My goal is to grow into a full-stack developer and build efficient, user-focused applications.
               </p>
             </div>
           </div>
