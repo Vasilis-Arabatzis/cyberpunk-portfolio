@@ -38,10 +38,10 @@ export default function NeonParticles({ mouseRef }: ParticlesProps) {
         <bufferAttribute attach="attributes-position" args={[positions, 3]} />
       </bufferGeometry>
       <pointsMaterial
-        size={0.035}
+        size={0.08}
         color="#06b6d4"
         transparent
-        opacity={0.7}
+        opacity={0.9}
         blending={THREE.AdditiveBlending}
         depthWrite={false}
       />

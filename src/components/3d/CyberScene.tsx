@@ -26,9 +26,14 @@ export default function CyberScene() {
   return (
     <group ref={groupRef}>
       <NeonParticles mouseRef={mouseRef} />
+      {/* Διορθώθηκε: Ορίστηκαν έγκυρες συντεταγμένες θέσης [0, 0, 0] */}
       <mesh position={[0, 0, 0]}>
         <icosahedronGeometry args={[1.5, 1]} />
-        <meshBasicMaterial color="#a855f7" wireframe transparent opacity={0.25} />
+        <meshBasicMaterial color="#a855f7"
+          wireframe 
+          transparent 
+          opacity={0.4} 
+         />
       </mesh>
     </group>
   );
