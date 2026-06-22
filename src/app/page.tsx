@@ -8,29 +8,42 @@ import Footer from '@/components/ui/Footer';
 
 export default function Home() {
   return (
-    // ΔΙΟΡΘΩΘΗΚΕ: Το κεντρικό main γίνεται bg-transparent για να μην κρύβει τον καμβά
     <main className="relative w-full min-h-screen bg-transparent text-white overflow-x-hidden">
       
-      {/* 1. Το 3D Background Wrapper παίρνει το επίσημο Cyber background χρώμα */}
+      {/* 3D Background Layer Wrapper */}
       <div className="fixed inset-0 -z-50 w-screen h-screen pointer-events-none bg-[#030712] block">
         <DynamicCanvas />
       </div>
 
-      {/* 2. Τα UI Στοιχεία επιπλέουν από πάνω */}
       <NavBar />
 
       <div className="relative z-10 w-full flex flex-col items-center pt-16 bg-transparent">
         
-        {/* Hero Section */}
+        {/* HERO SECTION - ΠΡΟΣΤΕΘΗΚΕ ΤΟ ΟΝΟΜΑ ΣΟΥ ΕΔΩ */}
         <section className="w-full min-h-screen flex flex-col justify-center px-8 max-w-6xl bg-transparent">
-          <p className="text-cyan-400 font-mono text-xs mb-2 tracking-widest">⚡ INITIALIZING PIPELINE</p>
-          <h1 className="text-5xl md:text-7xl font-black tracking-tight mb-4 leading-none">
+          <p className="text-cyan-400 font-mono text-xs mb-2 tracking-widest uppercase">
+            ⚡ // INITIALIZING PIPELINE
+          </p>
+          
+          {/* ΤΟ ΟΝΟΜΑ ΣΟΥ ΜΕ NEON GLOW ΣΤΥΛ */}
+          <h2 className="text-xl md:text-2xl font-mono tracking-wider font-bold mb-1 text-gray-300">
+            HI, I AM <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 font-sans font-black tracking-tight uppercase">VASILEIOS ARABATZIS</span>
+          </h2>
+
+          <h1 className="text-5xl md:text-7xl font-black tracking-tight mb-4 leading-none uppercase">
             FULL STACK <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">DEVELOPER</span>
           </h1>
-          <p className="text-gray-400 max-w-sm text-sm font-light leading-relaxed mb-6">Building modular 3D architectures and real-time streaming interfaces.</p>
+          
+          <p className="text-gray-400 max-w-sm text-sm font-light leading-relaxed mb-6">
+            Building modular 3D architectures and real-time streaming interfaces.
+          </p>
+          
           <div>
-            <a href="#contact" className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded font-mono text-xs tracking-wider transition hover:opacity-90 inline-block">
+            <a 
+              href="#contact" 
+              className="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded font-mono text-xs tracking-wider transition hover:opacity-90 inline-block"
+            >
               [ CONTACT_ME ]
             </a>
           </div>
