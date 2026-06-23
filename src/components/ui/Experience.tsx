@@ -15,9 +15,9 @@ export default function Experience() {
       role: "Interactive 3D Portfolio Platform",
       category: "⚡ 3D WEB ARCHITECTURE",
       details: [
-        "Σχεδιασμός και ανάπτυξη portfolio με WebGL particle συστήματα χρησιμοποιώντας React Three Fiber και Next.js.",
-        "Υλοποίηση scroll-driven camera αναπαραστάσεων και dynamic cursor particle physics σε πραγματικό χρόνο.",
-        "Απευθείας σύνδεση με το live REST API του GitHub για real-time ανανέωση των repositories."
+        "Designed and developed a portfolio using WebGL particle systems with React Three Fiber and Next.js.",
+        "Implemented scroll-driven camera animations and dynamic cursor particle physics in real time.",
+        "Integrated directly with GitHub's live REST API for real-time repository updates."
       ],
       tags: ["Next.js", "React Three Fiber", "Three.js", "TypeScript", "Tailwind", "WebGL"]
     },
@@ -25,9 +25,9 @@ export default function Experience() {
       role: "Basketball Referee (3 Years Experience)",
       category: "🏀 OFFICIATING & SPORTS MANAGEMENT",
       details: [
-        "Διαιτησία αγώνων καλαθοσφαίρισης για 3 έτη, εφαρμόζοντας τους επίσημους κανονισμούς με απόλυτη ακρίβεια.",
-        "Ανάπτυξη ισχυρών αντανακλαστικών για γρήγορη λήψη κρίσιμων αποφάσεων υπό συνθήκες υψηλής πίεσης.",
-        "Διαχείριση εντάσεων στο γήπεδο και αποτελεσματική επικοινωνία με παίκτες και προπονητές."
+        "Refereed basketball games for 3 years, applying official rules with absolute precision.",
+        "Developed strong reflective skills for quick decision-making under high-pressure conditions.",
+        "Managed tensions on the court and maintained effective communication with players and coaches."
       ],
       tags: ["Decision Making", "Conflict Management", "Communication", "Leadership"]
     },
